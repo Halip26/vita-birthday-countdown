@@ -1,0 +1,257 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Freeman", sans-serif;
+}
+
+body {
+  height: 100%;
+  background-image: url("../images/nvitaaaz-08-11-2025-00012.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 5rem auto;
+  max-width: 1170px;
+}
+
+.card {
+  color: white;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+  margin: auto;
+  margin-top: 15%;
+  backdrop-filter: blur(50px);
+  background-color: #131313;
+  opacity: 0.5;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 5px 5px 12px #e6b51459;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #e6b51459;
+}
+
+.text h1 {
+  font-size: 30px;
+  letter-spacing: 1.6px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+
+.text h4 {
+  line-height: 1.5;
+  text-transform: none;
+  font-family: "Freeman", sans-serif;
+  margin-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+h4 {
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 2;
+  font-family: "Roboto", sans-serif;
+}
+
+.text {
+  padding-bottom: 15px;
+}
+
+.timeleft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.format h4 {
+  font-size: 25px;
+}
+
+/* this selector to manipulate the js code */
+.timeleft .expired {
+  font-size: 1.5rem;
+  color: #ff0033;
+  text-transform: none;
+}
+
+.timeleft a {
+  text-decoration: none;
+  transform: translateX(-50%);
+  color: white;
+  background: crimson;
+  padding: 1px 4px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+
+.timeleft a:hover {
+  color: crimson;
+  background: none;
+}
+
+.format {
+  place-items: center;
+  width: 5rem;
+  border: 0.5rem;
+  border-color: black;
+  height: 5rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.format span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+/* design the footer card-footer */
+.card-footer {
+  margin: 10rem auto;
+  color: white;
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+  backdrop-filter: blur(10px);
+  background-color: #31313180;
+  opacity: 0.7;
+  border-radius: 20px;
+  box-shadow: 4px 4px 6px #1d1d1d59;
+}
+
+.card-footer a {
+  text-decoration: none;
+  color: crimson;
+  transition: 0.2s ease-in;
+}
+
+.card-footer a:hover {
+  color: #ff0033;
+  text-decoration: underline;
+}
+
+.card-footer h1 {
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 2;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-footer p {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+/* responsive for iPhone 12 pro */
+@media only screen and (max-width: 394px) {
+  body {
+    background-size: cover;
+  }
+
+  .card {
+    margin-top: 90%;
+  }
+
+  .card-footer {
+    margin-top: -55%;
+  }
+
+  .section-center {
+    margin-bottom: 18rem;
+  }
+
+  .card h1 {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .card-footer h1 {
+    font-size: 15px;
+  }
+
+  .card-footer p {
+    font-size: 12px;
+  }
+
+  .text h1 {
+    font-size: 23px;
+  }
+
+  .timeleft .expired {
+    font-size: 16px;
+    margin: 0 2px 0px 2px;
+  }
+
+  .text h4 {
+    font-size: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .format h4 {
+    font-size: 20px;
+  }
+
+  .format {
+    width: 4rem;
+    height: 4rem;
+    margin: 2px;
+  }
+
+  .format span {
+    font-size: 8px;
+  }
+}
+
+/* responsive for iPhone 14 Pro Max */
+@media only screen and (max-width: 430px) {
+  .section-center {
+    margin-bottom: 18rem;
+  }
+
+  .format {
+    margin-bottom: 15px;
+  }
+}
+
+/* responsive for iPad mini */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .section-center {
+    margin-bottom: 450px;
+  }
+
+  .format {
+    width: 6rem;
+    height: 6rem;
+    margin: 8px;
+  }
+
+  .format span {
+    margin-top: 3px;
+    font-size: 12px;
+  }
+}
