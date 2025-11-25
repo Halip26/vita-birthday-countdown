@@ -110,14 +110,14 @@ document.getElementById("currentYear").textContent = currentYear;
 
 // Array of background images
 const images = [
-  'url("./assets/images/nvitaaaz-08-11-2025-00012.png")',
+  'url("./assets/images/nvitaaaz-08-11-2025-00012.jpg")',
   'url("./assets/images/nvitaaaz_20250630_003447_896.jpg")',
   'url("./assets/images/nvitaaaz_20250630_003450_281.jpg")',
   'url("./assets/images/nvitaaaz_20250630_003501_892.jpg")',
   'url("./assets/images/nvitaaaz_20250630_003510_508.jpg")',
   'url("./assets/images/nvitaaaz-08-11-2025-0001.jpg")',
-  'url("./assets/images/nvitaaaz-08-11-2025-00012.png")',
-  'url("./assets/images/nvitaaaz-08-11-2025-00013.png")',
+  'url("./assets/images/nvitaaaz-08-11-2025-00012.jpg")',
+  'url("./assets/images/nvitaaaz-08-11-2025-00013.jpg")',
   'url("./assets/images/nvitaaaz-10-11-2025-0001.jpg")',
   'url("./assets/images/nvitaaaz-25-10-2025-0001.jpg")',
 ];
@@ -131,7 +131,7 @@ function changeBackground() {
   index = (index + 1) % images.length;
 
   // set delay every 5 seconds
-  setTimeout(changeBackground, 7000);
+  setTimeout(changeBackground, 3000);
 }
 
 // Initial call to start the loop
