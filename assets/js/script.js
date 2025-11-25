@@ -131,7 +131,7 @@ function changeBackground() {
   index = (index + 1) % images.length;
 
   // set delay every 5 seconds
-  setTimeout(changeBackground, 3000);
+  setTimeout(changeBackground, 5000);
 }
 
 // Initial call to start the loop
