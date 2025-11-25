@@ -1,6 +1,6 @@
 # Vita Birthday Countdown
 
-![Preview](assets/images/screenshot-preview.png)
+![Preview](assets/images/screenshot-preview.jpg)
 
 ## Description
 
