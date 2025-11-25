@@ -1,12 +1,12 @@
-# Riri Birthday Countdown
+# Vita Birthday Countdown
 
 ![Preview](assets/images/screenshot-preview.png)
 
 ## Description
 
-A simple countdown timer application for Riri's birthday. This project displays an interactive countdown to the special day.
+A simple countdown timer application for Vita's birthday. This project displays an interactive countdown to the special day.
 
-**🌐 Live Website:** Visit the countdown timer at [https://halip26.github.io/riri-birthday-countdown](https://halip26.github.io/riri-birthday-countdown)
+**🌐 Live Website:** Visit the countdown timer at [https://halip26.github.io/vita-birthday-countdown](https://halip26.github.io/vita-birthday-countdown)
 
 ## Features
 
@@ -20,13 +20,13 @@ A simple countdown timer application for Riri's birthday. This project displays 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Halip26/riri-birthday-countdown.git
+git clone https://github.com/Halip26/vita-birthday-countdown.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd riri-birthday-countdown
+cd vita-birthday-countdown
 ```
 
 3. Open `index.html` in your browser or install dependencies if applicable.
@@ -44,7 +44,7 @@ Simply open the application in your web browser to see the countdown timer in ac
 ## Project Structure
 
 ```
-riri-birthday-countdown/
+vita-birthday-countdown/
 ├── index.html
 ├── style.css
 ├── script.js
@@ -66,4 +66,4 @@ Halip26 - [@Halip26](https://github.com/Halip26)
 
 ---
 
-**Happy Birthday Riri! 🎂🎈**
+**Happy Birthday Vita! 🎂🎈**
