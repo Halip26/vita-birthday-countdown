@@ -33,7 +33,7 @@ body {
 }
 
 .card {
-  color: white;
+  color: #fff;
   width: 100%;
   max-width: 600px;
   height: auto;
@@ -42,17 +42,18 @@ body {
   text-align: center;
   margin: auto;
   margin-top: 15%;
-  backdrop-filter: blur(50px);
-  background-color: #131313;
-  opacity: 0.5;
+  backdrop-filter: blur(1px);
+  /* use hexa instead of opacity so text stays opaque */
+  background-color: #2b0a176c; /* adjust alpha as needed */
+  /* opacity: 0.5;  <-- removed */
   border-radius: 20px;
   transition: all 0.3s ease;
-  box-shadow: 5px 5px 12px #e6b51459;
+  box-shadow: 5px 5px 12px #c97c9a;
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 30px #e6b51459;
+  box-shadow: 0 0 30px #c97c9a;
 }
 
 .text h1 {
@@ -142,8 +143,8 @@ h4 {
   text-align: center;
   margin: auto;
   backdrop-filter: blur(10px);
-  background-color: #31313180;
-  opacity: 0.7;
+  background-color: #5d163150; /* use hexa, remove opacity */
+  /* opacity: 0.7;  <-- removed */
   border-radius: 20px;
   box-shadow: 4px 4px 6px #1d1d1d59;
 }
