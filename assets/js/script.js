@@ -36,7 +36,7 @@ let tempMonth = tempDate.getMonth();
 let tempDay = tempDate.getDate();
 
 // Set the date of vita's birthday
-const futureBirthday = new Date(2026, 5, 20, 22, 30, 0);
+const futureBirthday = new Date(2026, 4, 20, 22, 30, 0);
 
 const year = futureBirthday.getFullYear();
 const hours = futureBirthday.getHours();
