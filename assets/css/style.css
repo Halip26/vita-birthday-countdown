@@ -13,11 +13,17 @@
 
 body {
   height: 100%;
-  background-image: url("../images/nvitaaaz-08-11-2025-00012.png");
+  background-image: url("../images/nvitaaaz-08-11-2025-00012.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: contain;
   background-repeat: repeat;
+  /* background-color: #fc6ffc; */
+  transition: background-image 1s ease-in-out;
+}
+
+.section {
+  padding: 5rem 0;
 }
 
 .section-center {
