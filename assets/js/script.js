@@ -120,6 +120,7 @@ const images = [
   'url("./assets/images/nvitaaaz-08-11-2025-00013.jpg")',
   'url("./assets/images/nvitaaaz-10-11-2025-0001.jpg")',
   'url("./assets/images/nvitaaaz-25-10-2025-0001.jpg")',
+  'url("./assets/images/nvitaaaz_20250630_003447_8967.jpg")',
 ];
 
 // Initial index
